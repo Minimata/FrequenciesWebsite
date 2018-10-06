@@ -51,6 +51,7 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
@@ -68,6 +69,10 @@ a:focus, a:hover {
 
 #mainNav .navbar-brand {
   font-weight: 700;
+}
+#mainNav .navbar-brand:hover {
+  font-weight: 700;
+  background-color: rgba(0, 0, 0, .5);
 }
 
 #mainNav a {
@@ -89,6 +94,9 @@ a:focus, a:hover {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+.nav-item > a:hover {
+  background-color: rgba(0, 0, 0, .5);
 }
 
 @media (min-width: 992px) {
@@ -135,6 +143,7 @@ a:focus, a:hover {
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;
+  width: 100vw;
 }
 
 .masthead .intro-body .brand-heading {
@@ -146,9 +155,10 @@ a:focus, a:hover {
 }
 
 .improve-contrast-box {
-  background: rgba(0, 0, 0, .5);
-  border-radius: 5px;
-  text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, .3);
+  border-radius: 0;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 1);
+  padding: 8px;
 }
 
 @media (min-width: 768px) {

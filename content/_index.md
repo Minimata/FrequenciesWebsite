@@ -1,8 +1,6 @@
 ---
 title: "Frequencies"
-date: 2018-09-09T00:00:00-00:00
-copyright: "Frequencies game"
-#mapsapikey: xxx
+copyright: "Frequencies Game 2018"
 
 socialhandles:
     twitter: "EpicMinimata"

@@ -1,4 +1,3 @@
 baseURL = "http://frequencies-game.org/"
 languageCode = "en-us"
 title = "Frequencies game"
-theme = "grayscale"
