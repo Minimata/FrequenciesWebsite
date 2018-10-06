@@ -125,24 +125,26 @@ a:focus, a:hover {
   }
 }
 
-.masthead {
-  display: table;
+.video {
+  position: absolute;
+  z-index: -100;
   width: 100%;
-  height: auto;
-  padding: 200px 0;
+  height: 100%;
+}
+
+.masthead {
+  height: 100%;
+  width: 100%;
+  padding: 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
-  background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .masthead .intro-body {
-  display: table-cell;
-  vertical-align: middle;
   width: 100vw;
 }
 
@@ -163,7 +165,6 @@ a:focus, a:hover {
 
 @media (min-width: 768px) {
   .masthead {
-    height: 100%;
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
@@ -202,7 +203,7 @@ a:focus, a:hover {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/Frequencies_Play.gif") no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
