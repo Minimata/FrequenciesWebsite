@@ -52,6 +52,12 @@ a:focus, a:hover {
 }
 
 
+#mc_embed_signup{
+  font:14px Helvetica,Arial,sans-serif;
+  width:100%;
+  margin-bottom: 35px;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;
