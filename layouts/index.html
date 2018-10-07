@@ -66,37 +66,29 @@
     <!-- About Section -->
     {{- if isset $.Params "about" -}}
     <section id="{{ .Scratch.Get "about" }}" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
+
             <h2>{{- default "" $.Params.about.header | safeHTML -}}</h2>
             <p>{{- default "" $.Params.about.text | safeHTML -}}</p>
-          </div>
-        </div>
-      </div>
+
     </section>
     {{- end -}}
 
     <!-- Download Section -->
     {{- if isset $.Params "download" -}}
     <section id="{{ .Scratch.Get "download" }}" class="download-section content-section text-center">
-      <div class="container">
-        <div class="col-lg-8 mx-auto">
+
             <div class="improve-contrast-box">
               <h2>{{- default "" $.Params.download.header | safeHTML -}}</h2>
               <p>{{- default "" $.Params.download.text | safeHTML -}}</p>
             </div>
-        </div>
-      </div>
+
     </section>
     {{- end -}}
 
     <!-- Contact Section -->
     {{- if isset $.Params "contact" -}}
     <section id="{{ .Scratch.Get "contact" }}" class="content-section text-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
+
             <h2>{{- default "" $.Params.contact.header | safeHTML -}}</h2>
             <p>{{- default "" $.Params.contact.text | safeHTML -}}</p>
 
@@ -144,9 +136,7 @@
               {{- end -}}
             </ul>
             {{- end -}}
-          </div>
-        </div>
-      </div>
+
     </section>
     {{- end -}}
 
